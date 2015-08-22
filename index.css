@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+
+small {
+  display: block;
+  text-align: center;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.node {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.node:hover {
+  opacity: 1;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: 0.5;
+}
