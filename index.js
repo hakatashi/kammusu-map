@@ -22,7 +22,10 @@ d3.json("graph.json", function (error, json) {
 		.nodes(json.nodes)
 		.links(json.links)
 		.linkDistance(function (d) {
-			return 1 / d.value;
+			return 1 / d.value + 10;
+		})
+		.linkStrength(function (d) {
+			return d.value * 10;
 		})
 		.start();
 
