@@ -15,7 +15,7 @@ d3.json("graph.json", function (error, json) {
 	if (error) throw error;
 
 	json.links = json.links.filter(function (link) {
-		return link.value > 0.012;
+		return link.value > 0.02;
 	});
 
 	force

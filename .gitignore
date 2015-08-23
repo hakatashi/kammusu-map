@@ -1,2 +1,6 @@
 data
 node_modules
+fetch-data.js
+fetch-ids.js
+illust-ids.json
+total.json

@@ -7,7 +7,9 @@ kammusues = CSON.load './kammusu.cson'
 
 for from, relation of relationship
 	for to of relation
-		relation[to] /= total[to] + total[from]
+		relation[to] /= Math.min(total[to], total[from]) * 2
+
+kammusues = kammusues.filter (kammusu) -> total[kammusu] > 20
 
 nodes = []
 links = []
