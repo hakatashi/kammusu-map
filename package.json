@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hakatashi/kammusu-map#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "fetch-retry": "^1.2.1"
   }
 }
