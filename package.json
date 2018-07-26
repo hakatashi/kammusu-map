@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hakatashi/kammusu-map/issues"
   },
-  "homepage": "https://github.com/hakatashi/kammusu-map#readme"
+  "homepage": "https://github.com/hakatashi/kammusu-map#readme",
+  "dependencies": {
+    "fetch-retry": "^1.2.1"
+  }
 }
