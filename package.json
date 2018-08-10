@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/hakatashi/kammusu-map#readme",
   "dependencies": {
+    "byline": "^5.0.0",
     "cheerio": "^1.0.0-rc.2",
-    "fetch-retry": "^1.2.1"
+    "fetch-retry": "^1.2.1",
+    "js-combinatorics": "^0.5.3",
+    "lodash": "^4.17.10"
   }
 }

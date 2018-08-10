@@ -4,3 +4,12 @@ fetch-data.js
 fetch-ids.js
 illust-ids.json
 total.json
+illusts.json
+illusts.txt
+pair-count.json
+pair-count.csv
+characters-count.json
+characters-count.csv
+pmi.csv
+*.txt
+*.zip
