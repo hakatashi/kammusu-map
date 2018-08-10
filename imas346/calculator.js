@@ -73,6 +73,6 @@ if (process.argv.includes('graph')) {
 			source: characters.findIndex(([character]) => character === pair[0]),
 			target: characters.findIndex(([character]) => character === pair[1]),
 			value: weighedCount / (counts.get(pair[0])[2] + counts.get(pair[1])[2] - weighedCount) || 0,
-		})),
-	}, null, '  '));
+		})).filter((link) => link.value > 0.03),
+	}));
 }
